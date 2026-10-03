@@ -1,6 +1,6 @@
-# Clean Frame AI
+# Clean Frame
 
-**Clean Frame AI** is an intelligent image dataset cleaning pipeline with React frontend. It uses computer vision and deep learning to automatically filter out corrupt, irrelevant, and poorly framed images from your dataset storing everything in a local SQLite database for easy review and management.
+**Clean Frame** is an intelligent image dataset cleaning pipeline with React frontend. It uses computer vision and deep learning to automatically filter out corrupt, irrelevant, and poorly framed images from your dataset storing everything in a local SQLite database for easy review and management.
 
 ---
 
@@ -52,8 +52,8 @@
 ### 1. Clone and Setup
 
 ```bash
-git clone https://github.com/gersimuca/clean-frame-ai
-cd clean-frame-ai
+git clone https://github.com/gersimuca/clean-frame
+cd clean-frame
 ```
 
 ### 2. Backend Setup
@@ -139,7 +139,7 @@ Click any image to see:
 ## Project Structure
 
 ```
-puralens/
+clean-frame/
 ├── backend/
 │   ├── main.py                 # FastAPI server
 │   ├── config.py               # Settings & GPU detection
